@@ -45,3 +45,15 @@ hr {
 }
 
 /* look for BEM naming convention */
+
+/* lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  list-style: none;
+  display: inline;
+  padding: 0rem 0.5rem;
+}
