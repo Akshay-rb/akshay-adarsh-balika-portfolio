@@ -149,9 +149,9 @@ p {
   text-align: center;
 }
 
-/* .section h2 {
+.heading-h2 {
   color: var(--primary-color);
-} */
+}
 
 .ow {
   background-color: var(--off-white);
@@ -194,7 +194,7 @@ p {
     padding: 0rem;
   }
 
-  .container-center {
+  .container-centre {
     width: auto;
   }
 
