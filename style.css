@@ -9,7 +9,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0px;
+  margin: 0px auto;
+  max-width: 85%;
+  width: 100%;
 }
 
 hr {
@@ -22,22 +24,24 @@ p {
 
 /* container */
 .container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+  padding: 0rem 1rem;
 }
 
 .container-centre {
   max-width: 600px;
   margin: auto;
+  width: 100%;
 }
 
 /* links */
 
 .link {
   text-decoration: none;
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1rem;
   margin: auto;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   /* margin: 3rem auto; */
   /* margin-bottom: 1rem; */
 }
@@ -47,7 +51,8 @@ p {
   border-radius: 2rem;
   color: white;
   max-width: 140px;
-  margin: 1rem;
+  margin: 1rem auto;
+  padding: 0.6rem 1.2rem;
 }
 
 .link-secondary {
@@ -55,6 +60,8 @@ p {
   border-radius: 2rem;
   border: 1px solid var(--primary-color);
   max-width: 140px;
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
 }
 
 /* look for BEM naming convention */
@@ -64,6 +71,7 @@ p {
 .list-non-bullet {
   list-style: none;
   text-align: center;
+  padding-inline-start: 0px;
 }
 
 .list-item-inline {
@@ -96,6 +104,7 @@ p {
 
 .navigation .nav-pills {
   text-align: right;
+  margin: 0.6rem 1rem;
 }
 
 .navigation .link-active {
@@ -112,7 +121,8 @@ p {
 .hero .hero-image {
   margin: auto;
   display: block;
-  max-width: 350px;
+  max-width: 80%;
+  width: 550px;
 }
 
 .hero .hero-heading {
@@ -129,6 +139,9 @@ p {
 
 .section {
   padding: 2rem;
+  margin: 2rem 0rem;
+  border-radius: 1rem;
+  text-align: center;
   /* max-width: 900px; */
 }
 
@@ -136,14 +149,14 @@ p {
   text-align: center;
 }
 
-.section h2 {
+/* .section h2 {
   color: var(--primary-color);
-}
+} */
 
 .ow {
   background-color: var(--off-white);
-  margin: auto;
-  max-width: 900px;
+  /* margin: auto;
+  max-width: 900px; */
   border-radius: 01rem;
 }
 
@@ -151,12 +164,10 @@ p {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 1rem 2rem;
+  padding: 2rem 1rem;
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
-  margin-top: 2rem;
-  display: block;
 }
 
 .footer .link {
