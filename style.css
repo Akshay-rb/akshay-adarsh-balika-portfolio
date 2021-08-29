@@ -135,6 +135,14 @@ p {
   color: var(--primary-color);
 }
 
+.hero .align-text {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 0.75rem;
+  font-weight: 300;
+  display: block;
+}
+
 /* section */
 
 .section {
